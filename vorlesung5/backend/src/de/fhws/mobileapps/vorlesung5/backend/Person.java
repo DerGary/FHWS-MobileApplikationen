@@ -53,6 +53,16 @@ public class Person
 		this.lastName = lastName;
 	}
 
+	public String getUrl( )
+	{
+		return url;
+	}
+
+	public void setUrl( String url )
+	{
+		this.url = url;
+	}
+
 	public String toString( )
 	{
 		return Long.toString( this.id ) + ";" + this.firstName + ";" + this.lastName + ";" + this.url;

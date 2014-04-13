@@ -7,7 +7,6 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class PersonContainer
 {
-
 	private static PersonContainer myInstance = null;
 
 	public static PersonContainer getInstance( )
