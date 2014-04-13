@@ -12,14 +12,15 @@ public class Person
 	private String url;
 
 	public Person( )
-	{}
+	{
+		this.url = "http://lorempixel.com/300/300/people/";
+	}
 
 	public Person( String firstName, String lastName )
 	{
-		super( );
+		this( );
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.url = "http://lorempixel.com/300/300/people/";
 	}
 
 	public long getId( )
