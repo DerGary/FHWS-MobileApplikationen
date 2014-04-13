@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">First App</string>
+    <string name="greeting">Please type in your full name</string>
+    <string name="inputUsernameHint">Firstname Lastname</string>
+    <string name="okButton">OK</string>
+    <string name="action_about">About</string>
+    <string name="aboutText">This is your first Android app</string>
+    <string name="welcome">Hi, %1$s!\n\nWelcome to this class. We hope you will enjoy mobile app programming.\n\nCheers!</string>
+</resources>

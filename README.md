@@ -1,4 +1,4 @@
 FHWS-MobileApplikationen
 ========================
 
-Beispiel aus der Vorlesung
+Beispiele aus der Vorlesung zur Android Programmierung

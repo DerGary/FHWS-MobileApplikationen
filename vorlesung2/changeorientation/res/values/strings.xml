@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChangeOrientation</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="press_me">Press me!</string>
+    <string name="pressed_times">Button was clicked %1$s times</string>
+
+</resources>

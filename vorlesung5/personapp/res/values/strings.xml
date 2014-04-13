@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PersonApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Type in your name</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="save">Save</string>
+    <string name="title_activity_show_persons">ShowPersons</string>
+
+</resources>
