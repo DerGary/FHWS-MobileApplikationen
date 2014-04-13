@@ -34,8 +34,8 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://backend.applab.fhws.de:8080/manager/text</url>
-					<server>tomcat</server>
-					<path>/fhws</path>
+					<server>tomcat-staging</server>
+					<path>/mobapp</path>
 				</configuration>
 			</plugin>
 		</plugins>
