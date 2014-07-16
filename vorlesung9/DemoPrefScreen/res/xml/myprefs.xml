@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Security" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="KEY_SAVE"
+            android:summary="Saving is insecure but nice"
+            android:title="Save login and password" />
+
+        <EditTextPreference 
+            android:key="eingabe"
+            android:summary="Zusammenfassung für diese Eingabe"
+            android:title="Das ist eine Eingabe" />
+
+        <SwitchPreference
+            android:key="switch"
+            android:summary="Ein oder Ausschalten"
+            android:title="Your Choice" />
+        
+        <ListPreference 
+            android:key="liste"
+            android:summary="Schwierige Auswahl"
+            android:title="Bitte wählen Sie jetzt:"
+            android:entries="@array/liste_namen"
+            android:entryValues="@array/liste_werte"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

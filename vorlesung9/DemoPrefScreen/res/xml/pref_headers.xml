@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="de.fhws.mobapp.vorl8.demoprefscreen.PreferenceActivity$PlaceholderFragment"
+        android:summary="Some settings for this app"
+        android:title="Settings" />
+    <header
+        android:fragment="de.fhws.mobapp.vorl8.demoprefscreen.PreferenceActivity$DisplaySettingsFragment"
+        android:summary="Set the display"
+        android:title="Display" />
+    <header
+        android:icon="@drawable/ic_launcher"
+        android:summary="Launches an Intent."
+        android:title="Intent" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.android.com" />
+    </header>
+
+</preference-headers>

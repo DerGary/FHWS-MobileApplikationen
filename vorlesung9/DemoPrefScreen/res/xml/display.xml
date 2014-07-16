@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="eingabe"
+        android:summary="Zusammenfassung für diese Eingabe"
+        android:title="Das ist eine Eingabe" />
+
+    <SwitchPreference 
+        android:key="switch"
+        android:summary="Ein oder Ausschalten"
+        android:title="Your Choice"/>
+    
+    <Preference android:title="Google Suche" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.google.com" />
+    </Preference>
+    <Preference android:title="Display Settings" >
+        <intent
+            android:action="android.settings.DISPLAY_SETTINGS"/>
+    </Preference>
+
+</PreferenceScreen>
